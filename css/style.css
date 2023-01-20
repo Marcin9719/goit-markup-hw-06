@@ -513,7 +513,7 @@ font-size: 14px;
       letter-spacing: 0.03em;
       padding-bottom: 10px;
   color: var(--button_text-color);
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .iconsFooterWrap{
 display: flex;
@@ -539,6 +539,72 @@ transition:250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+
+.footer-form-label {
+font-family: Roboto;
+font-weight: 700;
+line-height: 16.41px;
+font-size: 14px;
+letter-spacing: 0.03em;
+padding-bottom: 20px;
+color: var(--button_text-color);
+margin-bottom: 24px;
+}
+
+.footer-form-mail {
+  padding-top: 20px;
+  padding-bottom: 32px;
+  display: flex;
+  margin-left: 0;
+  text-align: left;
+}
+
+.footer-button{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color:var(--main-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  color:var(--button_text-color);
+  font-Weight:700;
+  font-Size:16px;
+  line-height:30px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+ 
+ 
+     padding-left: 42px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+       border: 0px;
+  }
+
+  .footer-form-icon {
+    display: inline-block;
+    margin-left: 24px;
+    margin-right: 28px;
+    fill: var(--button_text-color);
+    align-items: center;
+  }
+ 
+
+  input#email{
+    width:358px;
+    Height:50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color:var(--brand-color-background);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-Weight:400;
+    font-Size:16px;
+    line-height:30px;
+    padding-left:16px;
+    color:rgba(255, 255, 255, 0.6);
+     }
 
 
 /*************** portfolio ***************************/
@@ -776,6 +842,7 @@ fill:#2196F3;
 	border: 0;
 	background-color: transparent;
 	font-size: 20px;
+  outline: none;
 }
 
 .label{
@@ -790,6 +857,9 @@ fill:#2196F3;
   width: 100%;
   margin-block: 12px;
   margin-inline: 56px;
+  outline: none;
+
+
 	
 }
 
