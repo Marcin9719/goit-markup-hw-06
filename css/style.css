@@ -503,11 +503,7 @@ address {
 
 
 .footer-form-mail{
-  
-  
- 
-  padding-top: 20px;
-  
+   padding-top: 20px;
   padding-bottom: 32px;
   display: flex;
   margin-left: 0;
@@ -553,12 +549,11 @@ address {
      }
 
 
-.footer-form-icon {
-  fill: var(--button_text-color);
+.footer-form-icon{fill:var(--button_text-color);
   margin-left: 24px;
   margin-right: 28px;
-  align-items: center;
-}
+  display: flexbox;
+ align-items: center;}
 
 
 /*************** portfolio ***************************/
