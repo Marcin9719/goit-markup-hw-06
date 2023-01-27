@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/modern-normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_zad5.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
 						<a href="#" class="marked">Agencja</a>
 					</li>
 					<li>
-						<a href="portfolio.html" >Portfolio</a></li>
+						<a href="portfolio_zad5.html" >Portfolio</a></li>
 					<li><a href="#" >Kontakty</a></li>
 				</ul>
 			 
@@ -65,7 +65,9 @@
 					</a>
 				</li>
 			</ul>
-				 
+			
+
+			
 			
 		</header>
 				
@@ -441,15 +443,22 @@
 							</textarea>
 						</fieldset>
 
-						<fieldset class="input-wrapper">
-							
-							
-							<input 
-							type="checkbox"
-							id="check-button"><span>Oświadczam, że akceptuję &nbsp;</span><a href="#">Regulamin </a><span>&nbsp;i&nbsp;</span><a href="#"> Politykę Prywatności</a>
-						</label>
-						</fieldset>
-						<button class="submit-button" button type="submit"><span>Wyślij</span></button>
+
+
+
+
+
+
+						<label class="backdrop-data-legal-checkbox">
+							<input class="backdrop-data-legal-checkbox-checkbox" type="checkbox" name="legal" value="legal" />
+							Oświadczam, że akceptuję <a class="backdrop-data-legal-checkbox__link" href="#">Regulamin</a> i <a class="backdrop-data-legal-checkbox__link" href="#">Politykę Prywatności</a>
+							<span class="backdrop-data-legal-checkbox__checkmark">
+							  <svg class="backdrop-data-legal-checkbox__icon">
+								  <use href="./images/icons.svg#icon-check"></use>
+								</svg>
+							</span>
+						  </label>
+						<button class="backdrop-data-legal-checkbox__button" button type="submit"><span>Wyślij</span></button>
 						
 				</form>
 
